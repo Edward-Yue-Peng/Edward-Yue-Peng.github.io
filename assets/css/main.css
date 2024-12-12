@@ -3879,43 +3879,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   text-align: center;
 }
 
-.game {
-  height: 100vh;
-  background-color: #18bfef;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 10px;
-  /* background-image: url("https://images.pexels.com/photos/7130475/pexels-photo-7130475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
-  /* background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
-}
-.game-title {
-  color: red;
-  text-align: start;
-}
-
-.game-box {
-  display: flex;
-  width: 100%;
-}
-
-.game-text {
-  padding: 15px;
-  font-size: small;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.game-btn {
-  all: unset; /* Resets all default styles, including margin, padding, etc. */
-  background: none; /* Removes background */
-  border: none; /* Removes the border */
-  padding: 0; /* Removes padding */
-  font: inherit; /* Inherits the font from the parent element */
-  cursor: pointer; /* Adds a pointer cursor on hover */
-  outline: none; /* Removes the outline */
-}
 
 #main > .post {
   padding: 8rem 8rem 6rem 8rem;
