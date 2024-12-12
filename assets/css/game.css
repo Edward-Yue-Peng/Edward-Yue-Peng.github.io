@@ -69,6 +69,7 @@ body, html {
 
 
 .description {
+  
   flex: 7;
   display: flex;
   align-items: center;
@@ -78,7 +79,7 @@ body, html {
 .description p {
   margin: 0;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 
